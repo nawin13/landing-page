@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-style: 1.8vw;
+    font-weight: 600;
+    background-color: aliceblue;
+    width: 100%;
+    height: 60px;
+    padding: 20px 50px;
+}
+.main{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+sup {
+    position: absolute;
+    top: -6px;
+    left: 176px;
+    font-size: 32px;
+    
+    color: #4cbd4c;
+}
+a{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: black;
+    background: transparent;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.left{
+    padding: 70px 100px;
+    max-width: 50%;
+}
+
+.left h1{
+    font-size: 3.2vw;
+    font-weight: 800;
+}
+
+.left p{
+    font-size:16px;
+    padding-top: 30px;
+    max-width: 280px;
+    line-height: 1.3;
+    padding-bottom: 15px;
+    opacity: 0.7;
+    font-weight: 500;
+}
+
+.btn{
+    :nth-child(1){
+        background-color: #3aa149;
+        color: #fff;
+        padding: 10px 20px;
+        margin-right: 8px;
+    }
+
+    :nth-child(2){
+        background-color:transparent;
+        color:  #3aa149;
+        padding: 10px 20px;
+        border: 1px solid  #3aa149;
+    }
+}
+
+.right{
+    max-width: 50%;
+    padding-right: 50px;
+   
+}
+
+.right img{
+    width: 100%;
+    height: 500px;
+   
+}
+
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap: 25px;
+    text-align: center;
+    margin-top: -70px;
+    margin-left: 70px;
+}
+
+.box img{
+    width: 70px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: left;
+}
+.line{
+border-bottom: 3px solid rgb(128, 0, 15);
+width: 50px;
+}
+
+.box h1{
+    text-align: left;
+    padding:10px 0px;
+}
+.box p{
+    font-size: 20px;
+    text-align: left;
+    padding:10px 0px;
+    opacity: 0.7;
+}
+.box{
+    /* border: 1px solid black; */
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px black;
+    padding: 10px 20px;
+}
+
